@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549804569763",
+    "project_id": "nezaret-a57de",
+    "storage_bucket": "nezaret-a57de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549804569763:android:62249105ba1e8968c47b16",
+        "android_client_info": {
+          "package_name": "com.ailenezareti.nezaretv3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXQ1sSNfPu4ncZr46MvREoWXGN2zpR2_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

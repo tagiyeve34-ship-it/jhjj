@@ -1,0 +1,7 @@
+<resources>
+    <color name="bg">#F7F8FC</color><color name="surface">#FFFFFF</color><color name="surface2">#F1F3F9</color>
+    <color name="text">#171927</color><color name="muted">#7A8192</color><color name="line">#E8EAF1</color>
+    <color name="purple">#6D4CF6</color><color name="purple2">#8C6CF8</color><color name="purpleSoft">#EEEAFE</color>
+    <color name="green">#18C99A</color><color name="greenSoft">#E8FAF5</color><color name="blue">#4A8CF7</color>
+    <color name="orange">#FF9B45</color><color name="red">#F25D65</color><color name="white">#FFFFFF</color>
+</resources>

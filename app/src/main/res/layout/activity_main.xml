@@ -1,0 +1,9 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fitsSystemWindows="true">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="62dp"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/bottomNav"
+        android:layout_width="match_parent" android:layout_height="56dp" android:layout_gravity="bottom"
+        android:layout_marginStart="14dp" android:layout_marginEnd="14dp" android:layout_marginBottom="6dp"
+        android:background="@drawable/bg_bottom_nav" android:elevation="8dp"
+        app:itemIconSize="25dp" app:itemIconTint="@color/purple" app:itemTextColor="@color/muted" app:labelVisibilityMode="unlabeled" app:menu="@menu/bottom_nav"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

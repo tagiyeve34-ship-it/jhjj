@@ -1,0 +1,22 @@
+FINAL V3 dəyişiklikləri
+
+Dashboard:
+- “Mövqe” statistik kartı kliklənir: bu günün GPS nöqtələri + hər nöqtənin batareya faizi + vaxt + dəqiqlik.
+- “Zənglərin analizi” kartı və “Ən çox danışılan” sətri kliklənir: gün ərzində ən çox danışılan nömrələr danışıq müddətinə görə sıralanır.
+- Batareya kartında faiz dəyişiklikləri GPS nöqtələri ilə birlikdə göstərilir.
+- child.last_seen üçün server +1 saat düzəlişi saxlanılıb; GPS recorded_at artıq +1 edilmir.
+
+Xəritə:
+- Default zoom 20.0 (son nöqtəyə daha yaxın).
+- User kartı aşağı endirilib (112dp).
+- User kartına basanda aşağı bottom-sheet açılır; normalda bağlı/kiçik qalır.
+- Marşrut düyməsi birbaşa 24 saat çəkmir. Pəncərə açılır.
+- Default interval Son 1 saat; 1/3/6/12/24 saat seçimi var.
+- Xəritədə göstərmə seçimi: GPS nöqtələri və ya dayanma markerləri.
+- GPS markerinə basanda vaxt, dəqiqlik və batareya görünür.
+- Google Maps-da son nöqtəyə birbaşa navigasiya saxlanılıb.
+- GPS vaxtına əlavə +1 saat verilmir.
+
+Alt panel:
+- Mətnlər gizlədilib, yalnız ikonlar göstərilir.
+- Panel bir az kiçildilib, kənar margin artırılıb və yumru background saxlanılıb.

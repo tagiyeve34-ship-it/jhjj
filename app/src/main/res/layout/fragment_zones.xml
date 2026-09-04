@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="58dp" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:background="@color/surface">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Zonalar" android:textColor="@color/text" android:textStyle="bold" android:textSize="19sp"/>
+        <TextView android:id="@+id/add" android:layout_width="44dp" android:layout_height="44dp" android:gravity="center" android:text="+" android:textColor="@color/white" android:textStyle="bold" android:textSize="26sp" android:background="@drawable/bg_purple"/>
+    </LinearLayout>
+    <org.osmdroid.views.MapView android:id="@+id/zoneMap" android:layout_width="match_parent" android:layout_height="265dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="12dp" android:text="Təhlükəsiz ərazilər" android:textColor="@color/text" android:textStyle="bold" android:textSize="14sp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingHorizontal="10dp" android:paddingBottom="12dp" android:clipToPadding="false"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+DESIGN LOCK — DESIGN_REFERENCE.png
+
+1. DASHBOARD
+Ağ fon, tünd başlıq, profil kartı, yaşıl online status, batareya, dörd sürətli modul kartı, Bu gün statistikası və Son fəaliyyət.
+
+2. XƏRİTƏ
+Üstdə profil kartı. Açıldıqda yalnız son mövqe. Sağda Layer/Fokus/Yenilə. Aşağıda ünvan kartı. Marşrut yalnız düymə ilə açılır. Tarixçə seçildikdə həmin günün marşrutu. Standart/Peyk görünüşü. Paylaş.
+
+3. MARŞRUT
+Mavi xətt, yaşıl başlanğıc və cari marker. GPS sıçrayışları süzülür. Məsafə və GPS nöqtə sayı göstərilir.
+
+4. ZƏNGLƏR
+Hamısı/Gələn/Gedən/Qaçırılan tabları, calendar, tarixə görə server sorğusu, nömrə/kontakt/saat/müddət.
+
+5. ZONALAR
+Yuxarıda xəritə, zonalar radius dairələri, aşağıda siyahı. + yeni zona. Aktiv switch. Detal və silmə.
+
+6. BİLDİRİŞLƏR / AYARLAR
+Mövcud server alerts, təhlükəsizlik, PIN, dark-mode və logout.
